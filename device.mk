@@ -464,11 +464,9 @@ PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.msm8953
 
 # Vibrator
+TARGET_USES_DEVICE_SPECIFIC_VIBRATOR := true
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service
-
-PRODUCT_COPY_FILES += \
-    vendor/qcom/opensource/vibrator/excluded-input-devices.xml:vendor/etc/excluded-input-devices.xml
+    android.hardware.vibrator@1.3-service.xiaomi_onclite
 
 # Whitelisted app
 PRODUCT_COPY_FILES += \
