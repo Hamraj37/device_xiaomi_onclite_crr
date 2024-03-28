@@ -29,6 +29,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+RICE_MAINTAINER := H A M R A J 37
+WITH_GMS := false
+
 # Define bootanimation resolution.
 TARGET_BOOT_ANIMATION_RES := 720
 
