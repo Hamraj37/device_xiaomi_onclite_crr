@@ -400,11 +400,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
 
-# Remove unwanted packages
-ifneq ($(WITH_GAPPS),true)
-PRODUCT_PACKAGES += \
-    Remove_Packages
-endif
 
 # RIL
 PRODUCT_PACKAGES += \

@@ -52,3 +52,6 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Blurs
 TARGET_ENABLE_BLUR := false
+
+# Pixel charging
+USE_PIXEL_CHARGING := true
